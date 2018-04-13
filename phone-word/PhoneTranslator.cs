@@ -46,7 +46,9 @@ namespace phone_word
             for (int i = 0; i < combinations.Count; i++)
             {
                 var item = combinations[i];
-                if (item.Contains(c))
+
+                //if (item.Contains(c)) -> doesn't work, first char only ?! ABC = A - true | B and C - false
+                if (item.IndexOf(c) >= 0)
                     return i + 2;
             }
 

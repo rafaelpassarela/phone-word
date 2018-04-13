@@ -1,17 +1,9 @@
-﻿using System;
-using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.App;
 using Android.OS;
-using Android.Support.V7.App;
+using Android.Widget;
 
 namespace phone_word
 {
-    //android:theme="@style/MainTheme"
-    //[Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
-
     [Activity(Label = "@string/app_name", MainLauncher = true)]    
     public class MainActivity : Activity
     {
