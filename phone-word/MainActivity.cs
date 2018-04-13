@@ -9,10 +9,13 @@ using Android.Support.V7.App;
 
 namespace phone_word
 {
-    [Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
-    public class MainActivity : AppCompatActivity
-    {
+    //android:theme="@style/MainTheme"
+    //[Activity(Label = "@string/app_name", MainLauncher = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, Icon = "@drawable/icon")]
 
+    [Activity(Label = "@string/app_name", MainLauncher = true)]    
+    public class MainActivity : Activity
+    {
+        //AppCompatActivity
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
