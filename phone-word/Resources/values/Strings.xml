@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">phone-word</string>
+    <string name="app_name">PhoneWord Translator</string>
+    <string name="phoneword">Ender a Phoneword:</string>
+    <string name="translate">Translate</string>
 </resources>
